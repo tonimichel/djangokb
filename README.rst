@@ -4,7 +4,7 @@ djangokb
 ====================
 
 djangokb stands for "Django Knowledge Base" and is a
-blog project for sharing tipps and tricks amongst professional
+blog project for sharing tips and tricks amongst professional
 Django developers.
 
 Feel free to contribute your articles.
@@ -17,17 +17,22 @@ Excellent Python blogging tool http://tinkerer.me/. Thumbs up.
 Setup
 ----------------------------------
 
-1) Checkout this repository
-1) Create a virtualenv
-3) activate your virtualenv
-2) pip install requirements.txt
+1. Checkout this repository
+2. Create a virtualenv
+3. activate your virtualenv
+4. pip install requirements.txt
 
 
-How to create posts
----------------------
+How to create your first post
+-------------------------------
 
-See http://tinkerer.me/pages/documentation.html for
-how you create and maintain posts.
+1. cd djangokb/djangokb
+2. tinker --post 'django is awesome'
+3. edit posts/<year>/<month>/<day>/django_is_awesome.rst
+4. tinker --build
+5. Open index.html
+
+See http://tinkerer.me/pages/documentation.html for detailed information
 
 
 
