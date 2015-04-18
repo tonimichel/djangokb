@@ -4,7 +4,7 @@ djangokb
 ====================
 
 djangokb stands for "Django Knowledge Base" and is a
-blog project for sharing tipps and tricks amongst professional
+blog project for sharing tips and tricks amongst professional
 Django developers.
 
 Feel free to contribute your articles.
