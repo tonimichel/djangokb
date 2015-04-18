@@ -17,10 +17,10 @@ Excellent Python blogging tool http://tinkerer.me/. Thumbs up.
 Setup
 ----------------------------------
 
-1) Checkout this repository
-1) Create a virtualenv
-3) activate your virtualenv
-2) pip install requirements.txt
+1. Checkout this repository
+2. Create a virtualenv
+3. activate your virtualenv
+4. pip install requirements.txt
 
 
 How to create posts
