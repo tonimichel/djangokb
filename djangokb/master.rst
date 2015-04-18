@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2015/04/18/localized_form_fields_for_django_model_admins
 
    pages/impressum
    2015/04/18/model_and_admin_structure
