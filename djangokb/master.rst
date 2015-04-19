@@ -4,7 +4,8 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
-   2015/04/18/subclass_django_http_jsonresponse_for_jsonp
+   2015/04/18/localized_form_fields_for_django_model_admins
+   2015/04/18/subclass_jsonresponse_for_jsonp
 
    pages/impressum
    2015/04/18/model_and_admin_structure

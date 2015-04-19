@@ -1,6 +1,6 @@
 
-Subclass django.http.JsonResponse for JSONP
-===========================================
+Subclass JsonResponse for JSONP
+====================================
 
 
 
@@ -29,9 +29,13 @@ Since Django 1.7 you can use ``django.http.JsonResponse`` if you need HTTP respo
 			data = '{0}({1});'.format(callback, json.dumps(data, cls=encoder))
 			super(JsonPaddingResponse, self).__init__(content=data, **kwargs)
 
-To generate a JSONP response in a view you also have to read the callback string from the incoming GET request.
+To generate a JSONP response in a view you also have to read the callback string from the incoming GET request:
 
 .. code:: python
 	
-	callback = request.GET['callback']
+	@require_GET
+	def foo(request):
+		callback = request.GET['callback']
+		data = { 'bar': None }
+		return JsonPaddingResponse( data, callback )
 	
