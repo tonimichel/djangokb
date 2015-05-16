@@ -13,7 +13,7 @@ import tinkerer.paths
 project = 'Django Knowledge Base'
 
 # Change this to the tagline of your blog
-tagline = 'From professionals for professionals.'
+tagline = 'Tips and tricks for efficient development'
 
 # Change this to the description of your blog
 description = 'Feel free to contribute https://gibthub.com/tonimichel/djangokb'
@@ -83,7 +83,7 @@ exclude_patterns = ['drafts/*', '_templates/*']
 
 # Add templates to be rendered in sidebar here
 html_sidebars = {
-    '**': ['recent.html', 'searchbox.html']
+    '**': ['recent.html', 'searchbox.html',]
 }
 
 # Add an index to the HTML documents.
